@@ -1,0 +1,14 @@
+<div class="container">
+    <table class="table table-bordered">
+        <header>
+            <th>Id</th>
+            <th>Nombre</th>
+        </header>
+        <tbody *ngFor="let usuario of usuarios">
+            <tr>
+                <td><b>{{usuario['id']}}</b></td>
+                <td><b>{{usuario['usuario']}}</b></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
